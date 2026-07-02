@@ -1,0 +1,160 @@
+/* ==========================================================================
+   MINIMALIST MODERN PREMIUM LOGIN STYLE (CLEAN & SLEEK)
+   ========================================================================== */
+
+/* 1. Latar Belakang Kamar/Studio - Abu-abu sangat terang & bersih */
+body.login-page {
+  background-color: #f4f6f9 !important;
+  background-image: radial-gradient(#e9ecef 1px, transparent 1px) !important;
+  background-size: 20px 20px !important; /* Pola dot halus agar tidak polos banget */
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 2. Kotak Login Minimalis */
+.login-box {
+  width: 380px !important;
+}
+
+/* 3. Card Putih Bersih dengan Shadow Sangat Halus */
+.login-box .card {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 
+              0 10px 15px -3px rgba(0, 0, 0, 0.03) !important;
+}
+
+.login-box .card-header {
+  border-bottom: none !important;
+  padding: 40px 30px 10px 30px !important;
+}
+
+/* 4. Logo & Teks yang Proporsional */
+.login-logo a {
+  color: #1e293b !important; /* Warna charcoal, bukan hitam pekat */
+  font-weight: 700 !important;
+  font-size: 1.8rem !important;
+  letter-spacing: -0.5px;
+}
+
+.login-box-msg {
+  color: #64748b !important; /* Warna slate grey lembut */
+  font-size: 0.875rem !important;
+  padding: 0 30px !important;
+}
+
+.login-box .card-body {
+  padding: 20px 30px 35px 30px !important;
+}
+
+/* 5. Form Input Modern & Tipis */
+.login-box .input-group {
+  margin-bottom: 20px !important;
+}
+
+.login-box .form-control {
+  border: 1px solid #cbd5e1 !important;
+  border-right: none !important;
+  border-radius: 8px 0 0 8px !important;
+  padding: 10px 14px !important;
+  height: 44px !important;
+  font-size: 0.9rem !important;
+  color: #334155 !important;
+  background-color: #f8fafc !important; /* Warna input agak redup */
+  transition: all 0.2s ease-in-out;
+}
+
+/* Sisi Kanan Input (Tempat Ikon) */
+.login-box .input-group-text {
+  border: 1px solid #cbd5e1 !important;
+  border-left: none !important;
+  border-radius: 0 8px 8px 0 !important;
+  background-color: #f8fafc !important;
+  color: #94a3b8 !important;
+  height: 44px !important;
+  width: 44px;
+  justify-content: center;
+}
+
+/* Efek Focus: Saat input diklik berubah jadi biru bersih modern */
+.login-box .form-control:focus,
+.login-box .form-control:focus + .input-group-append .input-group-text {
+  border-color: #3b82f6 !important;
+  background-color: #ffffff !important;
+  color: #3b82f6 !important;
+  box-shadow: none !important; /* Buang glow biru tebal bawaan browser */
+}
+
+/* 6. Tombol Sign In Berkelas (Solid Charcoal / Deep Blue) */
+.login-box .btn-primary {
+  background-color: #1e293b !important; /* Warna maskulin & elegan */
+  border: none !important;
+  border-radius: 8px !important;
+  height: 44px !important;
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+  transition: background-color 0.2s ease;
+}
+
+.login-box .btn-primary:hover {
+  background-color: #0f172a !important;
+}
+
+/* 7. Tombol Sosial Media (Dibuat Outline Tipis) */
+.login-box .social-auth-links {
+  margin-top: 25px !important;
+  margin-bottom: 20px !important;
+}
+
+.login-box .social-auth-links .btn {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  height: 40px !important;
+  color: #475569 !important;
+  font-size: 0.85rem !important;
+  font-weight: 500 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px !important;
+  box-shadow: none !important;
+}
+
+.login-box .social-auth-links .btn:hover {
+  background-color: #f8fafc !important;
+  border-color: #cbd5e1 !important;
+}
+
+/* Warna Ikon Sosial Lebih Kalem */
+.login-box .social-auth-links .btn i {
+  font-size: 1rem;
+}
+.login-box .social-auth-links .btn .fa-facebook,
+.login-box .social-auth-links .btn .fa-facebook-f { color: #1877f2 !important; }
+.login-box .social-auth-links .btn .fa-google { color: #ea4335 !important; }
+
+/* 8. Link Bawah */
+.login-box .card-body p a {
+  color: #64748b !important;
+  font-size: 0.8rem !important;
+  font-weight: 400;
+}
+
+.login-box .card-body p a:hover {
+  color: #1e293b !important;
+  text-decoration: none !important;
+}
+
+/* Checkbox Label */
+.custom-control-label {
+  color: #64748b !important;
+  font-size: 0.85rem !important;
+  user-select: none;
+}
+
